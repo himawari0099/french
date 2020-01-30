@@ -1,0 +1,190 @@
+*{
+	margin:0;
+	padding:0;
+}
+.header{
+	background-color:#ffffff;
+	height:150px;
+	width:100%;		
+	position:fixed;
+	top:0;
+	border-bottom:solid 1px #eeeeee;
+	z-index:300;
+}
+
+.back{
+	width:1000px;
+	margin:auto;
+}
+.logo_01{
+	display:inline-block;
+	vertical-align:middle;
+	margin-top:20px;
+}
+#navi{
+	display:inline-block;
+}
+#navi li {
+	display:inline-block;
+	line-height:108px;	
+}
+
+#navi a {
+	text-decoration:none;
+	color:#000000;
+	font-size:25px;
+	margin-left:50px;	
+}
+#navi a:hover{
+	color:#deb887;
+}
+.french{
+	margin:auto;
+}
+.french img{
+	margin:auto;
+	display:block;
+	width:100%
+	
+}
+.logo_02 img{
+	margin: 50px auto;
+	display:block;
+}
+.text_01{
+	text-align:center;
+}
+
+.lunch{
+	margin:auto;
+}
+.lunch img{
+	display:block;
+	margin:auto;
+}
+.sea{
+	margin:auto;
+}
+.sea img{
+	margin:auto;
+	display:block;
+	width:100%
+}
+.about_content{
+	display:flex;
+	margin-left:90px;
+	margin-top:90px;
+	margin-right:90px;
+}
+.contents{
+	width:250px;	
+}
+.contents h3{
+	font-size:30px;
+}
+.contents p{
+	font-size:15px;
+	text-align:left;
+	
+}
+.contents a{
+	display:block;
+	width:90px
+	height:90px;
+	background-color:#c0c0c0;	
+	font-size:25;
+	padding:10px;
+	margin:30px;
+	text-decoration:none;
+	color:#ffffff;
+	text-align:center;
+}
+.wooman a:hover{
+	background-color:#deb887;
+}
+.lunch a:hover{
+	background-color:#deb887
+}
+.denner a:hover{
+	background-color:#deb887
+}
+
+
+.contents .image{
+    position: relative;
+}
+
+.contents .image::after{
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 237px; /* 画像の横幅 */
+    height: 232px; /* 画像の高さ */
+    line-height: 232px; /* 画像の高さ */
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.5);
+    color: #ffffff;
+    text-align: center;
+    
+    opacity: 0;
+}
+
+.contents:hover .image::after{
+/* 	.contents にマウスが乗っているときの .image の擬似要素 after のCSS */
+    opacity: 1;
+}
+
+/* 表示する文字 */
+.wooman .image::after{
+    content: "CONCEPT";
+}
+
+.lunch .image::after{
+    content: "LUNCH";
+}
+
+.denner .image::after{
+    content: "DINNER";
+}
+		
+.access{
+	width:1000px;
+	margin:auto;
+}
+.access h2{
+	font-size:30px;
+	margin-bottom:100px;
+	margin-left:30px;
+	margin-top:90px;
+}
+.access p{
+	display:block
+	text-align:left;
+	font-size:15px;
+}
+table{
+	margin-top:90px;
+	font-size:15px;
+	letter-spacing:1px;
+	line-height:35px;
+}
+th{
+	padding-right:20px;
+}
+.access_wrap{
+	display:flex;
+}
+.access_right{
+	margin-left:50px;
+}
+
+.logo_03{
+	text-align:center;
+	margin-top:90px;
+}
+.last{
+	text-align:center;
+	margin-top:50px;
+	margin-bottom:50px;
+}

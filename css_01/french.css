@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding:0;
+}
+html{
+}
+body{
+	margin:0;
+	font-size:20px;
+}
+.logo_01{
+	margin-left:190px;
+	padding:50px;
+}
+.back{
+	background-color:#ffffff;
+	position: webkit-sticky;
+	position:sticky;
+  	top: 0;
+  	height:200px;
+}
+	
+#navi ul{
+	text-align:center;
+}
+#navi li{
+	top:-150px;
+	position:relative;
+	display:inline-block;
+	margin:30px;
+	color:#000000;	
+	
+}
+#navi li a {
+  text-decoration: none;
+  color: #000000;
+  display:block;
+}
+#navi li:hover{
+	color:#deb887;
+}
+.french{
+	text-align:center;
+	margin-top:-90px;
+}
+.logo_02{
+	text-align:center;
+	margin:90px;
+}
+.text_01{
+	text-align:center;
+	letter-spacing:0.05em;
+	font-size:16px;
+}
+
+.lunch{
+	text-align:center;
+}
+.sea{
+	text-align:center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
